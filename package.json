@@ -1,0 +1,17 @@
+{
+  "name": "node-streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.2.2"
+  }
+}
